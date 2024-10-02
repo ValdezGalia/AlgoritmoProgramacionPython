@@ -11,10 +11,8 @@ def main():
         nonlocal p1,p2,p3,p4,p5,p6
         
         while( count <= 0 ):
-            if( par == 1 ):
-                par = n1 // 1000000
-                n1 = n1
-                return par
+            if( par == 1 and count <= 3 ):
+                primerPar = n1 // 1000000
             else:
                 segPar = n2 // 1000000
             

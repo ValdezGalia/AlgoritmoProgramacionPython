@@ -13,7 +13,6 @@ def main():
         while( count <= 0 ):
             if( par == 1 ):
                 par = n1 // 1000000
-                n1 = n1
                 return par
             else:
                 segPar = n2 // 1000000

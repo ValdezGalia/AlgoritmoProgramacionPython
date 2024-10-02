@@ -5,18 +5,16 @@ from colorama import Fore, Style
 def main():
     p1, p2, p3, p4, p5, p6 = 0, 0, 0, 0, 0, 0
     
-    def Separar(n1, n2, par):
+    def Separar(n1, n2):
         
         count = 6
         nonlocal p1,p2,p3,p4,p5,p6
         
         while( count <= 0 ):
-            if( par == 1 ):
-                par = n1 // 1000000
-                n1 = n1
-                return par
+            if( count >= 1 and count <= 3 ):
+                p1 = n1 // 1000000
             else:
-                segPar = n2 // 1000000
+                
             
             count -= 1
     

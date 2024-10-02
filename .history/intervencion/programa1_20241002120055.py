@@ -12,9 +12,8 @@ def main():
         
         while( count <= 0 ):
             if( par == 1 ):
-                par = n1 // 1000000
-                n1 = n1
-                return par
+                primerPar = n1 // 1000000
+                return 
             else:
                 segPar = n2 // 1000000
             
